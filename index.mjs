@@ -1,3 +1,9 @@
+import Mod1 from './math';
+
+console.log(`Mod1.num = ${Mod1.num}`)
+Mod1.increase();
+console.log(`Mod1.num = ${Mod1.num}`)
+
 console.log("hello world");
 
 var a = {"userId":1};
@@ -56,7 +62,7 @@ console.log(xx(2,3));
 const yy = (x, y) => { return x * y; }
 console.log(yy(3,4));
 
-sumA= sumAll(1, 123, 500, 115, 44, 88);
+var sumA= sumAll(1, 123, 500, 115, 44, 88);
 
 function sumAll() {
     var i, sum = 0;
@@ -144,3 +150,4 @@ console.log(pos)
 
 var d = new Date();
 console.log(d);
+
