@@ -127,3 +127,20 @@ add();
 add();
 
 console.log(add())
+
+// 您可以创建 const 对象：
+const car = {type:"porsche", model:"911", color:"Black"};
+// 您可以更改属性：
+car.color = "White";
+// 您可以添加属性：
+car.owner = "Bill";
+
+console.log(car);
+
+var str = "The full name of China is the People's Republic of China.";
+var pos = str.indexOf("China");
+
+console.log(pos)
+
+var d = new Date();
+console.log(d);
